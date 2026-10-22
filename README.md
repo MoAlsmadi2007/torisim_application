@@ -1,17 +1,32 @@
-# flutter_application_15
+# 🌍 Tourism Application :
 
-A new Flutter project.
+> **🌱 حالة المشروع (Project Status):** 
+> هذا التطبيق هو جزء من رحلتي المستمرة في تعلم واحتراف تطوير التطبيقات باستخدام Flutter. المشروع لا يزال **قيد التطوير (Work in Progress)** ولم يكتمل بعد. أقوم باستمرار بتطبيق ما أتعلمه هنا، فترقبوا المزيد من الإضافات والتحسينات قريباً! 🚀
 
-## Getting Started
+تطبيق سياحي تفاعلي مبني بإطار عمل **Flutter**، يهدف إلى استكشاف المعالم التاريخية (مثل الكنائس، الآبار، والكهوف) وعرض تفاصيلها، صورها، ومواقعها الجغرافية بطريقة عصرية وسلسة.
 
-This project is a starting point for a Flutter application.
+## ✨ المميزات الحالية (Current Features)
+* **تعدد اللغات (Localization):** دعم متكامل للغتين العربية والإنجليزية، مع إمكانية التبديل الفوري بينهما باستخدام حزمة `easy_localization`.
+* **الوضع الداكن والفاتح (Theme Toggle):** تحكم ديناميكي بمظهر التطبيق (Dark/Light Mode) لراحة عين المستخدم.
+* **إدارة الحالة المتقدمة (State Management):** الاعتماد على `Provider` لإدارة إعدادات اللغة والمظهر بكفاءة عالية.
+* **هندسة بيانات نظيفة (Models):** بناء نموذج بيانات (`Monument Model`) مخصص للتعامل مع معلومات الأماكن السياحية.
+* **واجهة تفاعلية ديناميكية:** قوائم تنقل ذكية وشاشات تصنيفات (Category Pages) تعتمد على تمرير البيانات عبر الـ Navigator.
+* **مدعوم بخرائط جوجل.**
 
-A few resources to get you started if this is your first Flutter project:
+## ⏳ قريباً (Coming Soon)
+* ربط التطبيق بقاعدة بيانات حقيقية (API/Firebase).
+* دمج خرائط جوجل (Google Maps) للوصول المباشر للمعالم.
+* إضافة المزيد من المعالم السياحية والتصنيفات وتطوير واجهة المستخدم.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 🛠️ التقنيات المستخدمة (Tech Stack)
+* **إطار العمل:** Flutter
+* **اللغة البرمجية:** Dart
+* **إدارة الحالة:** Provider
+* **أدوات إضافية:** Easy Localization
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 كيفية التشغيل (Getting Started)
+
+1. تأكد من تثبيت [Flutter SDK](https://docs.flutter.dev/get-started/install) على جهازك.
+2. قم باستنساخ المستودع (Clone):
+   ```bash
+   git clone [https://github.com/Mo_Smadi/torisim_application.git](https://github.com/Mo_Smadi/torisim_application.git)
